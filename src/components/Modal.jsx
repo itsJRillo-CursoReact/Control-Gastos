@@ -107,7 +107,7 @@ const Modal = ({
           </select>
         </div>
 
-        <input type="submit" value={gastoEditar.nombre ? "Guardar Cambios" : "Añadir Gasto"} />
+        <input  type="submit" value={gastoEditar.nombre ? "Guardar Cambios" : "Añadir Gasto"} />
       </form>
     </div>
   );
